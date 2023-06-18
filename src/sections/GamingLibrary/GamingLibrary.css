@@ -1,0 +1,50 @@
+em {
+  color: #ec6090;
+  font-style: normal;
+}
+
+.Gaming-Library-Card {
+  flex: 1 1 100%;
+}
+
+.Gaming-Library-Card ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--color-primary);
+  padding: 15px 0;
+  flex-wrap: wrap;
+  gap: 15px 10px;
+}
+
+ul h4 {
+  font-size: 14px;
+}
+
+ul span {
+  font-size: 14px;
+  color: #777;
+}
+
+ul li img {
+  width: 60px;
+}
+
+@media screen and (max-width:992px) {
+
+  .Gaming-Library-Card ul li,
+  .Gaming-Library-Card ul div {
+    flex: 1 25%;
+    font-size: 14px;
+  }
+}
+
+@media(max-width:450px) {
+  .Gaming-Library-Card ul {
+    gap: 20px 10px;
+  }
+
+  .section-header h4 {
+    text-align: center;
+  }
+}

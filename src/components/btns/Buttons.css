@@ -1,0 +1,25 @@
+.button a {
+  padding: 10px 20px;
+  transition: .4s;
+  font-size: 12px;
+  border-radius: 125px;
+}
+
+.primary-btn a {
+  background-color: #ec6090;
+  color: #fff;
+}
+
+.secondary-btn a {
+  color: #fff;
+  border: 1px solid #eee;
+}
+
+.secondary-btn a:hover {
+  color: #ec6090;
+}
+
+.primary-btn a:hover {
+  background-color: #fff;
+  color: #ec6090;
+}

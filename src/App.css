@@ -1,0 +1,19 @@
+:root {
+  --color-dark: #27292a;
+  --color-darkest: #1f2122;
+  --color-primary: #ec6090;
+  --color-light: #fff;
+}
+
+body {
+  background-color: var(--color-darkest);
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

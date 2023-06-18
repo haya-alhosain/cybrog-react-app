@@ -1,0 +1,19 @@
+.section-wrapper {
+  background-color: var(--color-darkest);
+  padding: 50px;
+  margin-top: 25px;
+  border-radius: 25px;
+}
+
+.card-wrapper {
+  background-color: var(--color-dark);
+  padding: 25px;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+@media(max-width:450px) {
+  .section-wrapper {
+    padding: 20px;
+  }
+}
